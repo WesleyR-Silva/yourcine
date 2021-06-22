@@ -1,0 +1,50 @@
+:root {
+    font-size: 60%;
+    --color-red: #FF5C5C;
+    --color-purple: #6C63FF;
+    --color-purple-light: #F0F0FF;
+    --color-light: #FFFFFF;
+    --color-background: #F5F5F5;
+    --color-border: #E2E2E2;
+    --color-card-border: #252525;
+    --color-dark: #001400;
+    --color-primary: #5CFF5C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    background: var(--color-dark);
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-dark);
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+.content {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width: 700px) {
+     :root {
+        font-size: 62.5%;
+    }
+}
